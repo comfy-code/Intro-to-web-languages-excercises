@@ -1,0 +1,15 @@
+/* KEON HENTON - no members */
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: brown;
+}
+
+#main-title{
+    text-align: center;
+    color: white;
+}
+
+.content{
+    margin-bottom: 12px;
+    color: white
+}

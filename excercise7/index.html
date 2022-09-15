@@ -1,0 +1,31 @@
+<!-- no members - KEON HENTON  -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<input id="name-input" type="text" placeholder="Enter your name" />
+<button id="my-button">Click Me</button>
+
+<script>
+  // select button by id my button
+  var myButton = document.querySelector('#my-button');
+
+  //select input tag by id name input
+  var nameInput = document.querySelector('#name-input');
+
+  // on click of the button if the input is not empty return the value(user input) in a alert message
+  myButton.addEventListener('click', function () {
+
+    if (nameInput.value !== '') {
+      alert('Hello ' + nameInput.value);
+    }
+  });
+</script>
+</body>
+</html>
